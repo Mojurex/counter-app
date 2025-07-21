@@ -5,6 +5,9 @@ function App(){
   const[count, setCount] = useState(0);
   const increase = () => setCount(count + 1);
   const decrease = () => setCount(count - 1);
+  if (count < 0){
+    setCount(count + 1);
+  }
   return (
     <div className='App'>
       <h1>Тоолуур</h1>
@@ -12,7 +15,6 @@ function App(){
       <button onClick={increase}>+ Нэмэх</button> 
       <button onClick={() => setCount(0)}> Эхлэх</button>
       <button onClick={decrease}>- Хасах</button>
-
     </div>
   );
 }
