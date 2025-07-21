@@ -1,0 +1,17 @@
+.App{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: aliceblue;
+  margin-top: 100px;
+  color: #434365;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #434365;
+  color: #ffffff;
+}
